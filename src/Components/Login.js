@@ -60,7 +60,7 @@ class Login extends React.Component {
         return (
             <div>
               {this.state.signInValid==="true" &&(
-              <Navigate to="/images" replace={true}/>
+              <Navigate to="/images" state={{"signInValid":"true"}} replace={true}/>
               )
             }
 

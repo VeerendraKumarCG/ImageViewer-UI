@@ -9,7 +9,8 @@ class Routers extends React.Component {
             <>
                 <Routes>
                     <Route path="/"  element={<Login/>} exact />
-                    <Route path="/images" element={<ImageViewer/>}/>
+                    <Route path="/login"  element={<Login/>} />
+                    <Route path="/images" element={<ImageViewer />}/>
                 </Routes>
             </>
         )
